@@ -1,22 +1,29 @@
-# vue2-shop
+# 前言
 
-> A Vue.js project
+为了面试，自己做了一个小米有品的商城，也就形似吧，用了大概八九天的时间，都是晚上敲个通宵。
 
-## Build Setup
+之前在中石油旗下的软件公司工作，那公司还没前后端分离，用着十年前的技术做着五年前的项目，所以...
+
+现在出来想找一份正经的工作，无奈手里没有正经的项目，所以就自己写了这个项目。
+
+## 技术栈
+vue2 + vuex + vue-router + webpack + ES6 + node express + mongodb
+
+后台的话用的node Express + MongoDB，本来想用PHP + MySql的，一看大连的前端岗也不稀罕这些老东西，索性跟了一下潮流。
+
+前端用的Vue全家桶，然后webpack打了个包
+## 项目运行
 
 ``` bash
-# install dependencies
-npm install
+# 启用一下Express（我用的nodemo，太方便啦！）默认3000端口
+nodemon ./server/bin/www
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 如果没部署的话就用下面这条，默认8080端口
+npm run dev / npm start
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# 数据库我没发出来，你敲完上面的命令也跑不起来.....（小声BB）
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# VueShop
+# 另外
+你要是诚心面试的话我会带着本子去，我这正好还有个BUG没解决，求大神搭救！！！！！！！
